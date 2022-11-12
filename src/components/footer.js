@@ -1,7 +1,11 @@
 import React from "react";
-import img7 from '../images/image 7.png';
-import img8 from '../images/image 8.png';
-import img9 from '../images/images 9.png';
+import img7 from '../images/image7.png';
+import img8 from '../images/image8.png';
+import img9 from '../images/images9.png';
+import metabnb from '../images/bottom-metabnb.png';
+import ig from './../images/instagram.png';
+import facebook from '/images/facebook.png';
+import twitter from '../images/twitter.png';
 
 function footer() {
     return(
@@ -10,16 +14,23 @@ function footer() {
                 <div id="text_container">
                 <h1>Metabnb NFTs</h1>
                 <p>Discover our NFT gift cards collection. Loyal customers get gift cards which are traded as NFTs. These NFTs gives our customer access to loads of our exclusive services.</p>
-                <a id="button">Learn more</a>
+                <a href='#' id="button">Learn more</a>
                 </div>
                 <div id='img_container'>
-                <img src={ img7 } alt='image' />
-                <img src={ img8 } alt='image' />
-                <img src={ img9 } alt='image' />
+                <img src={ img7 } alt='nft' />
+                <img src={ img8 } alt='nft' />
+                <img src={ img9 } alt='nft' />
                 </div>
             </div>
             <div id="bottom-contaier">
-                <div id='logos'></div>
+                <div id='logos'>
+                    <img src={ metabnb } alt='logo' />
+                    <div id="socials">
+                        <img src={ facebook } alt='logo' />
+                        <img src={ ig } alt='logo' />
+                        <img src={ twitter } alt='logo' />
+                    </div>
+                </div>
                 <div id="addition">
                     <ul>
                         <li>
@@ -53,3 +64,5 @@ function footer() {
         </footer>
     )
 }
+
+export default footer;
