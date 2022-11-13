@@ -1,10 +1,8 @@
 import React from "react";
-import img7 from '../images/image7.png';
-import img8 from '../images/image8.png';
-import img9 from '../images/images9.png';
+import frame from '../images/frame.png';
 import metabnb from '../images/bottom-metabnb.png';
-import ig from './../images/instagram.png';
-import facebook from '/images/facebook.png';
+import ig from '../images/instagram.png';
+import facebook from '../images/facebook.png';
 import twitter from '../images/twitter.png';
 
 function footer() {
@@ -14,12 +12,10 @@ function footer() {
                 <div id="text_container">
                 <h1>Metabnb NFTs</h1>
                 <p>Discover our NFT gift cards collection. Loyal customers get gift cards which are traded as NFTs. These NFTs gives our customer access to loads of our exclusive services.</p>
-                <a href='#' id="button">Learn more</a>
+                <a href='google.com' id="button">Learn more</a>
                 </div>
                 <div id='img_container'>
-                <img src={ img7 } alt='nft' />
-                <img src={ img8 } alt='nft' />
-                <img src={ img9 } alt='nft' />
+                <img src={ frame } alt='nft' />
                 </div>
             </div>
             <div id="bottom-contaier">
