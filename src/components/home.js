@@ -1,5 +1,5 @@
 import React from "react";
-import Bnb from './Metabnb';
+import Bnb from '../components/Metabnb';
 import Footer from './Footer';
 
 const Home = () => {
