@@ -6,6 +6,9 @@ import opensea from '../images/opensea.png';
 import mb from '../images/mbtoken.png';
 import frame from '../images/frame2.png';
 import nft from '../images/NFT.png';
+import up from '../images/up.png';
+import Popup from "reactjs-popup";
+import 'reactjs-popup/dist/index.css'
 
 
 
@@ -22,7 +25,10 @@ function Metabnb() {
                         </li>
                         <li>NFTs</li>
                         <li>Community</li>
-                        <a href="google.com" id='top-button'>Connect wallet</a>
+                        <Popup trigger={<button id="top-button">Connect wallet</button>} position='left top'>
+                            <img src={ up } alt='popup' />
+                        </Popup>
+
                     </ul>
                 </nav>
             </div>
