@@ -1,14 +1,14 @@
 import React from "react";
-import bnb from '../components/metabnb';
-import footer from './footer';
+import Bnb from './Metabnb';
+import Footer from './Footer';
 
-const home = () => {
+const Home = () => {
     return (
         <div>
-            <bnb />
-            <footer />
+            <Bnb />
+            <Footer />
         </div>
     )
 }
 
-export default home
+export default Home;

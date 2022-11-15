@@ -1,7 +1,9 @@
 import React from "react";
-import img7 from '../images/image 7.png';
-import img8 from '../images/image 8.png';
-import img9 from '../images/images 9.png';
+import frame from '../images/frame.png';
+import metabnb from '../images/bottom-metabnb.png';
+import ig from '../images/instagram.png';
+import facebook from '../images/facebook.png';
+import twitter from '../images/twitter.png';
 
 function footer() {
     return(
@@ -9,19 +11,24 @@ function footer() {
             <div id='top-container'>
                 <div id="text_container">
                 <h1>Metabnb NFTs</h1>
-                <p>Discover our NFT gift cards collection. Loyal customers get gift cards which are traded as NFTs. These NFTs gives our customer access to loads of our exclusive services.</p>
-                <a id="button">Learn more</a>
+                <p>Discover our NFT gift cards collection. Loyal customers get gift cards whzaich are traded as NFTs. These NFTs gives our customer access to loads of our exclusive services.</p>
+                <a href='google.com' id="button">Learn more</a>
                 </div>
                 <div id='img_container'>
-                <img src={ img7 } alt='image' />
-                <img src={ img8 } alt='image' />
-                <img src={ img9 } alt='image' />
+                <img src={ frame } alt='nft' />
                 </div>
             </div>
-            <div id="bottom-contaier">
-                <div id='logos'></div>
+            <div id="bottom-container">
+                <div id='logo'>
+                    <img src={ metabnb } alt='logo'/>
+                    <div id="socials">
+                        <img src={ facebook } alt='logo' />
+                        <img src={ ig } alt='logo' />
+                        <img src={ twitter } alt='logo' />
+                    </div>
+                </div>
                 <div id="addition">
-                    <ul>
+                    <ul id='list'>
                         <li>
                             <h3>Community</h3>
                         </li>
@@ -30,7 +37,7 @@ function footer() {
                         <li>Landlords</li>
                         <li>Discord</li>
                     </ul>
-                    <ul>
+                    <ul id='list'>
                         <li>
                             <h3>Places</h3>
                         </li>
@@ -39,7 +46,7 @@ function footer() {
                         <li>Beach</li>
                         <li>Learn more</li>
                     </ul>
-                    <ul>
+                    <ul id='list'>
                         <li>
                             <h3>About us</h3>
                         </li>
@@ -53,3 +60,5 @@ function footer() {
         </footer>
     )
 }
+
+export default footer;
