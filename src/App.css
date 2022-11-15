@@ -83,29 +83,18 @@ div input{
   margin: 0;
 
 }
-#logo{
+#logos{
   width: 114.14px;
   height: 40.56px;
 }
 #middle_head{
   text-align: center;
-  
-font-family: 'Red Rose';
-font-style: normal;
-font-weight: 700;
-font-size: 38px;
-line-height: 60px;
-color: #000000;
-}
-#first-line{
-  display: flex;
-
-
-}
-#nfts{
-  padding-left: 30px;
-  width: 95%;
-  height: 95%;
+  font-family: 'Red Rose';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 60px;
+  color: #000000;
 }
 #top-container{
   display: flex;
@@ -121,10 +110,6 @@ color: #000000;
   line-height: 60px;
   letter-spacing: 0em;
   color: white;
-  
-
-  
-  
 }
 #img_container{
   padding: 50px;
@@ -150,7 +135,7 @@ color: #000000;
   padding: 20px;
   background-color: black;
 }
-#logos{
+#logo{
   display: flex;
   flex-direction: column;
   padding-right: 70px;
@@ -168,11 +153,120 @@ color: #000000;
 }
 #list
 {
-  flex-direction: column;
   color: white;
   list-style: none;
   height: 269px;
   width: 101px;
   text-align: left;
   padding-right: 10px;
+}
+#options{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+@media only screen and (max-width:768px) {
+  nav ul{
+    flex-direction: column;
+    padding: 20px;
+  }
+  #nav ul img{
+    width: 133px;
+    height: 26.67px;
+    top: 2.67px;
+  }
+  #top-button{
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 10px;
+    line-height: 10px;
+    width: 10%;
+  }
+  #search_bar{
+    flex-direction: column;
+    letter-spacing: normal;
+
+  }
+  #div p{
+    font-size: 10px;
+    line-height: 10px;
+  }
+  #search_button{
+    padding: 4px;
+    font-size: 8px;
+    width: 50%;
+  }
+  #top{
+    flex-direction: column;
+    padding: 20px;
+  }
+  #links{
+    flex-direction: column;
+    padding: 5px 30px 5px 30px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #logos{
+    width: 100px;
+    height: 20px;
+    
+  }
+  #middle_head{
+    font-size: 20px;
+    line-height: 10px;
+  }
+  #middle_images{
+    width: 100%;
+    height: 100%;
+  }
+  #first-line{
+    flex-direction: column;
+  }
+  #top-container{
+    flex-direction: column;
+  }
+  #text_containerr{
+    padding: 50px;
+    line-height: 30px;
+  }
+  #img_container{
+    padding: 0;
+    padding-bottom: 
+    30px;
+    width: 100%;
+    height: 100%;
+  }
+  #bottom-container{
+    flex-direction: column;
+    padding: 10px;
+  }
+  #logo{
+    flex-direction: column;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-left: 50px;
+    height: 100px;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  #addition{
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #list{
+    height: 100px;
+    width: 100%;
+    padding: 0;
+  }
+  #options{
+    flex-direction: column;
+  }
+  #body{
+    width: 100%;
+    height: 100%;
+  }
 }

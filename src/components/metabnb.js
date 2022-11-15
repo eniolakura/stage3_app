@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from '../images/top-metabnb.png';
 import metamask from '../images/metamask.png';
 import opensea from '../images/opensea.png';
@@ -16,7 +17,9 @@ function Metabnb() {
                     <ul>
                         <li><img src={ logo } alt='logo' /></li>
                         <li>Home</li>
-                        <li>Place to stay</li>
+                        <li>
+                            <Link to='/NFT'>Place to stay</Link>
+                        </li>
                         <li>NFTs</li>
                         <li>Community</li>
                         <a href="google.com" id='top-button'>Connect wallet</a>
@@ -37,13 +40,13 @@ function Metabnb() {
                 </div>
             </div>
             <div id='links'>
-                <img src={ mb } alt='logo' id="logo"/>
-                <img src={ metamask } alt='logo' id="logo"/>
-                <img src={ opensea } alt='logo' id="logo"/>
+                <img src={ mb } alt='logo' id="logos"/>
+                <img src={ metamask } alt='logo' id="logos"/>
+                <img src={ opensea } alt='logo' id="logos"/>
             </div>
             <div id="middle">
                 <h1 id='middle_head'>Inspiration for your next adventure</h1>
-                <img src={ nft } alt='nfts' id='nfts'/>
+                <img src={ nft } alt='nfts' id="middle_images"/>
             </div>
         </div>
     )

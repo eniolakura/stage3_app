@@ -19,7 +19,7 @@ function footer() {
                 </div>
             </div>
             <div id="bottom-container">
-                <div id='logos'>
+                <div id='logo'>
                     <img src={ metabnb } alt='logo'/>
                     <div id="socials">
                         <img src={ facebook } alt='logo' />
